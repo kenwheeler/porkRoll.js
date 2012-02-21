@@ -1,4 +1,4 @@
-# porkRoll.js: JSON -> HTML #
+# porkRoll.js #
 [https://github.com/kdubbicles/porkRoll.js/](https://github.com/kdubbicles/porkRoll.js)
 
 Version: 1.0, Last updated: 2/21/2012
@@ -63,13 +63,13 @@ porkRoll.js is a simple way to define HTML structure in JSON, and have it return
 
 ###Nodes###
 
-	a. tag - Regular HTML tag names go here. Use "text" for text content, and include a value node to specify your text value.
-	b. attr - You can include any inline level HTML tag attributes here
-	c. contents - Put any elements you want nested within the current element within the contents array.
+a. tag - Regular HTML tag names go here. Use "text" for text content, and include a value node to specify your text value.
+b. attr - You can include any inline level HTML tag attributes here
+c. contents - Put any elements you want nested within the current element within the contents array.
 
 ###Use###
 
-porkRoll(html)
+  porkRoll(html)
 
 ## Release History ##
 
