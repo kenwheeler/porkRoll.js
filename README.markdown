@@ -54,7 +54,7 @@ porkRoll.js is a simple way to define HTML structure in JSON, and have it return
 1.0 - Initial release
 
 ## License ##
-Copyright (c) 2011 Ken Wheeler
+Copyright (c) 2012 Ken Wheeler
 
 Dual licensed under the MIT and GPL licenses.
 
