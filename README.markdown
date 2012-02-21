@@ -71,7 +71,7 @@ c. contents - Put any elements you want nested within the current element within
 
   porkRoll(html)
 
-## Release History ##
+##Release History##
 
 1.0 - Initial release
 
