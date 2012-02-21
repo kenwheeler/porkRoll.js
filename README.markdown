@@ -16,7 +16,6 @@ porkRoll.js is a simple way to define HTML structure in JSON, and have it return
   		"attr": {
 
       	"id": "firstDiv",
-
       	"class": "divClass"
 
   		},
@@ -25,10 +24,9 @@ porkRoll.js is a simple way to define HTML structure in JSON, and have it return
 
 		{ 	"tag": "a",
 
-      		"attr": {
+      	"attr": {
 
    			"class": "linkClass",
-
    			"href": "http://www.mediahive.com" 
 
    			},
@@ -63,15 +61,15 @@ porkRoll.js is a simple way to define HTML structure in JSON, and have it return
 
 ###Nodes###
 
-a. tag - Regular HTML tag names go here. Use "text" for text content, and include a value node to specify your text value.
-b. attr - You can include any inline level HTML tag attributes here
-c. contents - Put any elements you want nested within the current element within the contents array.
+  a. tag - Regular HTML tag names go here. Use "text" for text content, and include a value node to specify your text value.
+  b. attr - You can include any inline level HTML tag attributes here
+  c. contents - Put any elements you want nested within the current element within the contents array.
 
-###Use###
+### Use ###
 
   porkRoll(html)
 
-##Release History##
+## Release History ##
 
 1.0 - Initial release
 
