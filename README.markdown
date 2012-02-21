@@ -14,49 +14,28 @@ porkRoll.js is a simple way to define HTML structure in JSON, and have it return
 	{ "tag": "div", 
 
   		"attr": {
-
       	"id": "firstDiv",
       	"class": "divClass"
-
   		},
-
   		"contents": [
-
-		{ 	"tag": "a",
-
-      	"attr": {
-
-   			"class": "linkClass",
-   			"href": "http://www.mediahive.com" 
-
-   			},
-
-    		"contents": [
-
-    		{ 	"tag": "img",
-
-    			"attr": {
-
-    			"src": "test.jpg"
-
-    			}
-
-		  	},
-
-      		{ 	"tag": "text",
-
+		  { 	"tag": "a",
+          "attr": {
+   		     "class": "linkClass",
+   		     "href": "http://www.mediahive.com" 
+   			  },
+    		  "contents": [
+    		  {   "tag": "img",
+              "attr": {
+                "src": "test.jpg"
+              }
+          },
+          { 	"tag": "text",
           		"value": "text content goes here"
-
       		}
-
-    		]
-
-    	}
-
-	    ]
-	    
+        	]
+      }
+      ]
 	}
-
 	]
 
 ### Nodes ###
